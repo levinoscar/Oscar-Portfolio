@@ -47,6 +47,35 @@ To create a production build, run:
     npm run build
     ```
 
+## Folder Structure should look something like this
+
+```
+your-portfolio/
+├── public/
+│   ├── vite.svg (Vite logo)
+├── src/
+│   ├── assets/
+│   │   └── react.svg (React logo)
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── MobileMenu.jsx
+│   │   ├── LoadingScreen.jsx
+│   │   └── sections/
+│   │       ├── Home.jsx
+│   │       ├── About.jsx
+│   │       ├── Projects.jsx
+│   │       └── Contact.jsx
+│   ├── index.css          # Tailwind base styles and global styles
+│   ├── App.jsx
+│   └── main.jsx
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
 ## Customization
 
 - **Tailwind CSS:** Modify the `index.css` file or add custom classes to further tweak the design.
