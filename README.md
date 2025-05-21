@@ -16,7 +16,7 @@ This is a repository that displays a responsive personal portfolio, using **Reac
 - **TailwindCSS:** Utility-first CSS framework.
 - **JavaScript (ES6+):** Modern JavaScript features and best practices.
 
-## Installation
+## Installation (How to begin)
 
 1. **Clone the repo:**
 
@@ -55,7 +55,7 @@ To create a production build, run:
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request with improvements.
+Contributions are welcome! Please open an issue or submit a pull request (PR) with improvements.
 
 ## License
 
@@ -72,4 +72,4 @@ Currently, two official plugins are available:
 
 ---
 
-Happy coding and enjoy building your professional portfolio!
+Happy coding and enjoy building a professional portfolio!
