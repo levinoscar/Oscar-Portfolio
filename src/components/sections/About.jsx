@@ -9,23 +9,24 @@ export const About = () => {
         "TypeScript",
         "HTML/CSS",
         "TailwindCSS", 
-        "JSON", 
-        "Object-Oriented Programming (OOP)",
         "Figma (UI/UX)", 
         "Tableau",
-        "Basic understanding of Swift"
+        "OOP/Software Design",
+        "JSON",
+        "Basic understanding of Swift and Objective C"
     ];
 
-    const backendSkills = [
-        "Node.js", 
+    const backendSkills = [ 
+        "Firebase",
         "Python", 
         "Java", 
+        "Node",
         "Kotlin",
         "Kubernetes",
-        "Firebase",
-        "Docker Storage",
-        "PostgreSQL", 
-        "Basic understanding of C, Amazon Web Services (AWS), REST APIs, Spring Boot, SQL, MongoDB, Oracle SQL, NoSQL, Google Cloud, Microsoft Azure and KQL"
+        "Docker",
+        "Machine Learning",
+        "C",
+        "Basic understanding of AWS, REST APIs, Spring Boot, Microsoft Azure/KQL, SQL and Oracle SQL"
     ];
 
     return (
@@ -41,11 +42,7 @@ export const About = () => {
                     </h2>
 
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                        <p className="text-gray-300 mb-6">
-                            Oscar is a very passionate developer with expertise in building scalable web
-                            applications, making new friends, loves ice hockey, travel and also 
-                            creating full-stack innovative solutions.
-                        </p>
+                        <p className="text-gray-300 mb-6">Oscar is a very passionate developer with an expertise in building scalable web applications, making new friends, loves to travel and his favorite sport is ice hockey.</p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -86,12 +83,12 @@ export const About = () => {
                                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                                     <li>
                                         <strong> Temple University </strong> - Bachelors of Science 
-                                        in Computer Science (2019-2024)
+                                        in Computer Science <br/>(August 2019 - December 2024)
                                     </li>
                                     <li>
                                         Relevant Coursework: Data Structures, Data Structures and Algorithms, 
                                         UI/UX Design, Intro to Operating Systems, Mobile Development (Android Studio), 
-                                        Machine Learning, Intro to Cloud Computing, Software Security, 
+                                        Machine Learning (Artificial Intelligence, LLM, Hugging-Face, Deep Learning, NLP and Neural Networks), Intro to Cloud Computing, Software Security (Docker), 
                                         Software Design and Capstone Project (Atlassian Jira)
                                     </li>
                                 </ul>
@@ -101,18 +98,19 @@ export const About = () => {
                                 <div className="space-y-4 text-gray-300">
                                     <div>
                                         <h4 className="font-semibold">
-                                            {" "}
-                                            Web Developer at OwlHacks (2023){" "}
+                                            {" "}Software Developer at Tern (2025){" "}
                                         </h4>
                                         <li>
-                                            Developed a high-conversion hackathon registration platform 
-                                            that resulted in a 30% increase of event sign-ups 
-                                            in comparisons to Fall 2022.
+                                            Collaborate with multiple front-end developers to implement responsive web applications, using Firebase.
                                         </li>
                                         <li>
-                                            Leveraged React.js and JSON for data handling, integrate team roster,
-                                            event location, discord link and Major League Hacking (MLH) banners 
-                                            as one of OwlHacks main sponsors.
+                                            Resolved critical conflicts and errors that was identified through QA testing.
+                                        </li>
+                                        <li>
+                                            Mentored and provide technical support on linux environment issues and commands to back-end developers, that resulted in a 30% reduction in post-deployment issues.
+                                        </li>
+                                        <li>
+                                            Utilized Firebase to streamline data management, front-end development and implement numerous pages of the responsive web designs.
                                         </li>
                                     </div>
                                 <div>

@@ -17,15 +17,14 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2">Generative AI Therapy ChatBot</h3>
                             <p className="text-gray-400 mb-4">
                                 Built a full-stack AI therapy chatbot with HuggingFace Transformers
-                                in Google Colab to create a pretrained LLM chatbot model that was 
+                                in Google Colab and created a pretrained LLM chatbot model that was 
                                 fine-tuned in Unslothed Ollama (Llama 3.1)
-                                (Llama 3.1-8B)
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {[
-                                    "React.js", "Node.js", "JavaScript", "TypeScript", "Python", "Google Colab (Jupyter Notebook)",
-                                    "TensorFlow.js", "Large Language Model (LLM) Fine-Tuning", "Natural Language Processing (NLP)",
-                                    "Kubernetes", "Firebase", "HuggingFace Transformers"
+                                    "React", "Node", "JavaScript", "TypeScript", "Python", "Google Colab (Jupyter Notebook)",
+                                    "TensorFlow", "LLM Fine-Tuning", "NLP",
+                                    "Kubernetes", "Firebase and HuggingFace Transformers"
                                 ].map((tech, key) => (
                                 <span
                                     key={key}
@@ -56,12 +55,9 @@ export const Projects = () => {
                             transition-all"
                     >
                         <h3 className="text-xl font-bold mb-2">Leland Data Science Bootcamp</h3>
-                        <p className="text-gray-400 mb-4">
-                            ML-powered data visualization platform with predictive analytics
-                            and interactive reports at Leland Data Science Bootcamp.
-                        </p>
+                        <p className="text-gray-400 mb-4">Data visualization platform that uses Machine Learning, along with predictive analytics and interactive reports.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["SQL", "Python", "TensorFlow.js", "HuggingFace Transformers", "Oracle SQL"].map((tech, key) => (
+                            {["Python", "TensorFlow", "HuggingFace Transformers", "SQL(Oracle)"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="
@@ -96,7 +92,7 @@ export const Projects = () => {
                     >   
                         <h3 className="text-xl font-bold mb-2">US City Guesser</h3>
                         <p className="text-gray-400 mb-4">
-                            Designed a web-based game using React.js, HTML and MongoDB,
+                            Designed a web-based game using React, HTML/CSS and used a database (SQL),
                             where users guess the US city with the map with state lines on the website.
                             I have also calculated the distance after a guess attempt was made, 
                             along with a conversion in both miles and km (1.6 km is 1 mile) for non US citizens. 
@@ -104,7 +100,7 @@ export const Projects = () => {
                             dot filter to collect the amount of city attempts.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React.js", "JavaScript", "HTML", "CSS", "PostgreSQL", "UI/UX Design"].map(
+                            {["Software Design", "React", "JavaScript", "HTML/CSS", "SQL", "UI/UX Design"].map(
                                 (tech) => (
                                     <span
                                         key={tech}
