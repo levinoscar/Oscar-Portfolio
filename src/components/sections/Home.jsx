@@ -13,7 +13,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I am a new grad that currently works as a software developer at Tern, who loves to craft clean and scalable web applications. 
+                        I was a recent software developer at Tern Computer, who loves to craft clean and scalable web applications. 
                         Not only have I worked on web applications, but I also worked with test cases and modifying the files while operating the frontend with the team. 
                         I am very excited to learn, grow, and adapt to new challenges, like Artificial Intelligence, to the tech world.
                     </p>

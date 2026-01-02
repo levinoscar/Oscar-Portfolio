@@ -3,30 +3,40 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
     const frontendSkills = [
         "React", 
+        "Redux",
         "Vite",
         "Next",
+        "Express",
         "JavaScript",
-        "TypeScript",
+        "Typescript",
         "HTML/CSS",
         "TailwindCSS", 
         "Figma (UI/UX)", 
         "Tableau",
         "OOP/Software Design",
-        "JSON",
-        "Basic understanding of Swift and Objective C"
+        "JSON", 
+        "Swift",
+        "Objective C"
     ];
 
     const backendSkills = [ 
-        "Firebase",
+        "Google Firebase",
+        "Microsoft SQL Server",
+        "Microsoft Azure",
         "Python", 
         "Java", 
         "Node",
+        "REST APIs",
         "Kotlin",
         "Kubernetes",
         "Docker",
         "Machine Learning",
         "C",
-        "Basic understanding of AWS, REST APIs, Spring Boot, Microsoft Azure/KQL, SQL and Oracle SQL"
+        "C++",
+        "C#",
+        "Spring Boot",
+        "Oracle SQL",
+        "Basic understanding of AWS, KQL, SQL (with MySQL and NoSQL)"
     ];
 
     return (
@@ -81,36 +91,67 @@ export const About = () => {
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                    <li>
-                                        <strong> Temple University </strong> - Bachelors of Science 
+                                    <h4>
+                                        <strong> Temple University </strong> - Bachelors of Science
                                         in Computer Science <br/>(August 2019 - December 2024)
+                                    </h4>
+                                    <h4>
+                                        <strong> Relevant Coursework: </strong>
+                                    </h4>
+                                    <li>Data Structures</li>
+                                    <li>Data Structures and Algorithms</li>
+                                    <li>UI/UX Design</li>
+                                    <li>Intro to Operating Systems</li>
+                                    <li>Mobile Dev (Android Studio)</li>
+                                    <li>Machine Learning
+                                        <ul className="list-disc list-inside ml-4">
+                                            <li>Artificial Intelligence</li>
+                                            <li>LLM</li>
+                                            <li>Hugging-Face</li>
+                                            <li>Deep Learning</li>
+                                            <li>NLP</li>
+                                            <li>Neural Networks</li>
+                                        </ul>
                                     </li>
-                                    <li>
-                                        Relevant Coursework: Data Structures, Data Structures and Algorithms, 
-                                        UI/UX Design, Intro to Operating Systems, Mobile Development (Android Studio), 
-                                        Machine Learning (Artificial Intelligence, LLM, Hugging-Face, Deep Learning, NLP and Neural Networks), Intro to Cloud Computing, Software Security (Docker), 
-                                        Software Design and Capstone Project (Atlassian Jira)
-                                    </li>
+                                    <li>Intro to Cloud Computing</li>
+                                    <li>Software Security (Docker)</li>
+                                    <li>Software Design</li>
+                                    <li> Capstone Project (Atlassian Jira)</li>
                                 </ul>
                             </div>
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                                 <div className="space-y-4 text-gray-300">
                                     <div>
-                                        <h4 className="font-semibold">
-                                            {" "}Software Developer at Tern (2025){" "}
+                                        <h4>
+                                            <strong> Software Developer at Tern </strong>
                                         </h4>
+                                        <h4 className="font-medium">
+                                            {" "}(June 2025 - January 2026){" "}
+                                        </h4><br/>
                                         <li>
-                                            Collaborate with multiple front-end developers to implement responsive web applications, using Firebase.
+                                            Streamlined UI development by 30%, using Carbon Design system, Next.js, and TailwindCSS
                                         </li>
                                         <li>
-                                            Resolved critical conflicts and errors that was identified through QA testing.
+                                            Reduced post-deployment issues and improved development speed by 25%
                                         </li>
                                         <li>
-                                            Mentored and provide technical support on linux environment issues and commands to back-end developers, that resulted in a 30% reduction in post-deployment issues.
+                                            Specialized in building high-performance and adaptive Firebase AI web applications
                                         </li>
                                         <li>
-                                            Utilized Firebase to streamline data management, front-end development and implement numerous pages of the responsive web designs.
+                                            Created Carbon Design components with innovated features in React and Next.js frameworks
+                                        </li>
+                                        <li>
+                                            Operated in Git Bash to see the deployment live and update features in GitHub Pull Requests
+                                        </li>
+                                        <li>
+                                            Managed each tasks in Jira to meet sprint goals, resolved tickets based on QA and COO’s feedbacks
+                                        </li>
+                                        <li>
+                                            Improved system reliability by developing Jest (End-to-End) tests to validate back-end data flows
+                                        </li>
+                                        <li>
+                                            Managed REST API integration by managing back-end API files, ensured consistent uptime and seamless data flow between services
                                         </li>
                                     </div>
                                 <div>
