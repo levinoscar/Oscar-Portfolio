@@ -13,9 +13,12 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I was a recent software developer at Tern Computer, who loves to craft clean and scalable web applications. 
-                        Not only have I worked on web applications, but I also worked with test cases and modifying the files while operating the frontend with the team. 
-                        I am very excited to learn, grow, and adapt to new challenges, like Artificial Intelligence, to the tech world.
+                        I am a Software Developer formerly at Tern Computer, specializing in 
+                        building clean, scalable web applications with a focus on the intersection 
+                        of design and engineering. With professional experience in frontend 
+                        development and automated testing, I bridge the gap between complex UI 
+                        concepts and production-ready code. I am passionate about leveraging 
+                        AI-driven workflows to build the next generation of the web.
                     </p>
                     <div className="flex justify-center space-x-4">
                         <a
