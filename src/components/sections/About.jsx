@@ -22,7 +22,53 @@ export const About = () => {
         "Objective C"
     ];
 
-    const backendSkills = [ 
+    const education = [
+        {
+            school: "Temple University",
+            degree: "Bachelor of Science in Computer Science",
+            dates: "August 2019 - December 2024",
+            coursework: [
+                "Data Structures",
+                "Data Structures and Algorithms",
+                "UI/UX Design",
+                "Intro to Operating Systems",
+                "Mobile Dev (Android Studio)",
+                "Machine Learning — Artificial Intelligence, LLM, Hugging Face, Deep Learning, NLP, Neural Networks",
+                "Intro to Cloud Computing",
+                "Software Security (Docker)",
+                "Software Design",
+                "Capstone Project (Atlassian Jira)",
+            ],
+        },
+    ];
+
+    const workExperience = [
+        {
+            title: "Quality Assurance Specialist",
+            company: "PNC · Full-time",
+            dates: "July 2026 - Present",
+            location: "Pittsburgh, Pennsylvania · On-site",
+            highlights: [],
+        },
+        {
+            title: "Software Developer",
+            company: "Tern",
+            dates: "May 2025 - January 2026",
+            location: "New York, New York · Remote",
+            highlights: [
+                "Streamlined UI development by 30% using Carbon Design System, Next.js, and TailwindCSS.",
+                "Reduced post-deployment issues and improved development speed by 25%.",
+                "Specialized in building high-performance and adaptive Firebase AI web applications.",
+                "Created Carbon Design components with innovative features in React and Next.js frameworks.",
+                "Operated in Git Bash to validate live deployments and update features through GitHub pull requests.",
+                "Managed tasks in Jira to meet sprint goals and resolved tickets based on QA and COO feedback.",
+                "Improved system reliability by developing Jest end-to-end tests to validate back-end data flows.",
+                "Managed REST API integration and ensured consistent uptime and seamless data flow between services.",
+            ],
+        },
+    ];
+
+    const backendSkills = [
         "Google Firebase",
         "Oracle SQL",
         "Python", 
@@ -94,72 +140,51 @@ export const About = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">Education</h3>
-                                <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                    <h4>
-                                        <strong>Temple University</strong> - Bachelors of Science in Computer Science
-                                        <br />
-                                        (August 2019 - December 2024)
-                                    </h4>
-                                    <h4>
-                                        <strong>Relevant Coursework:</strong>
-                                    </h4>
-                                    <li>Data Structures</li>
-                                    <li>Data Structures and Algorithms</li>
-                                    <li>UI/UX Design</li>
-                                    <li>Intro to Operating Systems</li>
-                                    <li>Mobile Dev (Android Studio)</li>
-                                    <li>
-                                        Machine Learning
-                                        <ul className="list-disc list-inside ml-4">
-                                            <li>Artificial Intelligence</li>
-                                            <li>LLM</li>
-                                            <li>Hugging Face</li>
-                                            <li>Deep Learning</li>
-                                            <li>NLP</li>
-                                            <li>Neural Networks</li>
-                                        </ul>
-                                    </li>
-                                    <li>Intro to Cloud Computing</li>
-                                    <li>Software Security (Docker)</li>
-                                    <li>Software Design</li>
-                                    <li>Capstone Project (Atlassian Jira)</li>
-                                </ul>
+                                <div className="space-y-6 text-gray-300">
+                                    {education.map((edu) => (
+                                        <div
+                                            key={`${edu.school}-${edu.degree}`}
+                                            className="border-l-2 border-blue-500/40 pl-4"
+                                        >
+                                            <h4 className="font-bold text-white">{edu.school}</h4>
+                                            <p className="text-sm text-gray-300">{edu.degree}</p>
+                                            <p className="text-sm text-gray-400">{edu.dates}</p>
+                                            {edu.coursework.length > 0 && (
+                                                <>
+                                                    <p className="text-sm text-gray-300 mt-3 font-medium">Relevant Coursework:</p>
+                                                    <ul className="list-disc list-outside ml-4 mt-1 space-y-1 text-sm">
+                                                        {edu.coursework.map((course) => (
+                                                            <li key={course}>{course}</li>
+                                                        ))}
+                                                    </ul>
+                                                </>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
 
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">Work Experience</h3>
-                                <div className="space-y-4 text-gray-300">
-                                    <div>
-                                        <h4>
-                                            <strong>Software Developer at Tern</strong>
-                                        </h4>
-                                        <h4 className="font-medium">(June 2025 - January 2026)</h4>
-                                        <br />
-                                        <li>
-                                            Streamlined UI development by 30% using Carbon Design System, Next.js, and TailwindCSS.
-                                        </li>
-                                        <li>
-                                            Reduced post-deployment issues and improved development speed by 25%.
-                                        </li>
-                                        <li>
-                                            Specialized in building high-performance and adaptive Firebase AI web applications.
-                                        </li>
-                                        <li>
-                                            Created Carbon Design components with innovative features in React and Next.js frameworks.
-                                        </li>
-                                        <li>
-                                            Operated in Git Bash to validate live deployments and update features through GitHub pull requests.
-                                        </li>
-                                        <li>
-                                            Managed tasks in Jira to meet sprint goals and resolved tickets based on QA and COO feedback.
-                                        </li>
-                                        <li>
-                                            Improved system reliability by developing Jest end-to-end tests to validate back-end data flows.
-                                        </li>
-                                        <li>
-                                            Managed REST API integration and ensured consistent uptime and seamless data flow between services.
-                                        </li>
-                                    </div>
+                                <div className="space-y-6 text-gray-300">
+                                    {workExperience.map((job) => (
+                                        <div
+                                            key={`${job.title}-${job.company}`}
+                                            className="border-l-2 border-blue-500/40 pl-4"
+                                        >
+                                            <h4 className="font-bold text-white">{job.title}</h4>
+                                            <p className="text-sm text-gray-300">{job.company}</p>
+                                            <p className="text-sm text-gray-400">{job.dates}</p>
+                                            <p className="text-sm text-gray-400">{job.location}</p>
+                                            {job.highlights.length > 0 && (
+                                                <ul className="list-disc list-outside ml-4 mt-3 space-y-2 text-sm">
+                                                    {job.highlights.map((highlight) => (
+                                                        <li key={highlight}>{highlight}</li>
+                                                    ))}
+                                                </ul>
+                                            )}
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
