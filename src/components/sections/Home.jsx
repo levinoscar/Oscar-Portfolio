@@ -13,11 +13,10 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I am a Software Developer formerly at Tern Computer, specializing in 
-                        building clean, scalable web applications with a focus on the intersection 
-                        of design and engineering. With professional experience in frontend 
-                        development and automated testing, I bridge the gap between complex UI 
-                        concepts and production-ready code. I am passionate about leveraging 
+                        I am a Quality Assurance Specialist at PNC Bank in Pittsburgh, Pennsylvania. I specialize in testing
+                        clean and scalable software features. With professional experience in frontend 
+                        development and automated testing, I bridge the gap between complex UI concepts and 
+                        production-ready code. I am passionate about leveraging 
                         AI-driven workflows to build the next generation of the web.
                     </p>
                     <div className="flex justify-center space-x-4">
