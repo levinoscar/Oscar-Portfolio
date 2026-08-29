@@ -46,7 +46,11 @@ export const About = () => {
             company: "PNC · Full-time",
             dates: "July 2026 - Present",
             location: "Pittsburgh, Pennsylvania · On-site",
-            highlights: [],
+            highlights: [
+                "Validated core ePayments flows by mapping API requests to ensure real-time UI data integrity",
+                "Executed manual and automated regression test suites using Cucumber and Selenium",
+                "Verified backend transactional data across OracleSQLDeveloper and MongoDB"
+            ],
         },
         {
             title: "Software Developer",
@@ -69,10 +73,11 @@ export const About = () => {
     const backendSkills = [
         "Google Firebase",
         "Oracle SQL",
+        "MongoDB",
         "Python", 
         "Java", 
         "Node",
-        "REST APIs",
+        "Postman (REST APIs)",
         "Protocol Buffers",
         "Kotlin",
         "Kubernetes",
