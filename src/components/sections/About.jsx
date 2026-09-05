@@ -48,8 +48,10 @@ export const About = () => {
             location: "Pittsburgh, Pennsylvania · On-site",
             highlights: [
                 "Validated core ePayments flows by mapping API requests to ensure real-time UI data integrity",
-                "Executed manual and automated regression test suites using Cucumber and Selenium",
-                "Verified backend transactional data across OracleSQLDeveloper and MongoDB"
+                "Execute manual and automated regression test suites using Cucumber and Selenium for automation",
+                "Simulate a check payment process, catch any defects before they could reach production",
+                "Caught payment-processing edge cases via Postman API testing — using restricted, valid and invalid tokens",
+                "Verified backend transactional data across OracleSQLDeveloper and MongoDB",
             ],
         },
         {
