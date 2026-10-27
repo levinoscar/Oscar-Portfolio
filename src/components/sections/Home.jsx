@@ -13,11 +13,12 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I am a Quality Engineer Specialist at PNC Bank in Pittsburgh, Pennsylvania. I specialize in testing
-                        clean and scalable software features. With professional experience in frontend 
-                        development and automated testing, I bridge the gap between complex UI concepts and 
-                        production-ready code. I am passionate about leveraging 
-                        AI-driven workflows to build the next generation of the web.
+                        I am a Quality Engineer Specialist at PNC in Pittsburgh, Pennsylvania. 
+                        I specialized in enterprise payment systems and automated test engineering. 
+                        With a background in frontend development and end-to-end API validation, I 
+                        bridge the gap between intuitive UI architecture and bulletproof backend 
+                        reliability. I am passionate about leveraging AI-driven workflows to build 
+                        and scale the next generation of the web.
                     </p>
                     <div className="flex justify-center space-x-4">
                         <a
