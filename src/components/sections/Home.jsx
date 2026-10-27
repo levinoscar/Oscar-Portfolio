@@ -13,7 +13,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I am a Quality Assurance Specialist at PNC Bank in Pittsburgh, Pennsylvania. I specialize in testing
+                        I am a Quality Engineer Specialist at PNC Bank in Pittsburgh, Pennsylvania. I specialize in testing
                         clean and scalable software features. With professional experience in frontend 
                         development and automated testing, I bridge the gap between complex UI concepts and 
                         production-ready code. I am passionate about leveraging 
