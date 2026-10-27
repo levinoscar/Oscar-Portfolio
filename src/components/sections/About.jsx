@@ -42,7 +42,7 @@ export const About = () => {
 
     const workExperience = [
         {
-            title: "Quality Assurance Specialist",
+            title: "Quality Engineer Specialist",
             company: "PNC · Full-time",
             dates: "July 2026 - Present",
             location: "Pittsburgh, Pennsylvania · On-site",
