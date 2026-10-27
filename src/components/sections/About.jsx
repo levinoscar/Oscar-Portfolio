@@ -47,11 +47,11 @@ export const About = () => {
             dates: "July 2026 - Present",
             location: "Pittsburgh, Pennsylvania · On-site",
             highlights: [
-                "Validated core ePayments flows by mapping API requests to ensure real-time UI data integrity",
-                "Execute manual and automated regression test suites using Cucumber and Selenium for automation",
-                "Simulate a check payment process, catch any defects before they could reach production",
-                "Caught payment-processing edge cases via Postman API testing — using restricted, valid and invalid tokens",
-                "Verified backend transactional data across OracleSQLDeveloper and MongoDB",
+                "Increased inactive-to-active Zelle token conversions by 35% through end-to-end testing of EWS AddPayment, one-way OTSC, Validate Recipient (VR), and Change Payment API flows",
+                "Built and executed automated E2E regression suites using Java, Cucumber, and Selenium to safeguard high-volume check and wire payment releases",
+                "Maintained real-time UI-to-backend data integrity across ePayments platforms by mapping and validating REST API request/response lifecycles",
+                "Caught critical payment-routing edge cases before production by testing restricted, valid, and unregistered token states in Postman",
+                "Verified end-to-end transaction consistency and ledger updates across Kafka event streams, Oracle SQL Developer, and MongoDB"
             ],
         },
         {
